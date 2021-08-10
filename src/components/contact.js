@@ -1,4 +1,5 @@
-import React from 'react';
+import React  from 'react';
+import { useHistory } from 'react-router-dom';
 
 import styled from 'styled-components';
 import github from '../img/github.svg';
@@ -18,6 +19,13 @@ const Contact = () => {
        const item =  document.querySelector(".copy");
        console.log(item);
        item.style.display = "none";
+    }
+
+    const history = useHistory();
+
+    const goThank = (e) => {
+        e.preventDefault();
+        history.push('/thank');
     }
 
     return (
@@ -50,7 +58,7 @@ const Contact = () => {
                                 <textarea name="message" id="message" ></textarea>
                             </div>
                             <div className="submit">
-                                <button type = "submit">Submit</button>
+                                <button onSubmit = {(e) => goThank(e)} type = "submit">Submit</button>
                             </div>
                             
                         </Message>
@@ -70,7 +78,7 @@ const Contact = () => {
                            
                         </Icon>
                         <p className = "copy">Copy to clipboard</p>
-                        <input type="hidden" name="_next" value="https://devdhiraj.netlify.app/thank"></input>
+                        <input type="hidden" name="_next" value="https://https://devdhiraj.netlify.app/thank.html"></input>
                         <input type="hidden" name="_captcha" value="false"></input>
                     </form>
                 </Details>
