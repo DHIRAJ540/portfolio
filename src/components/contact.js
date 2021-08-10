@@ -70,7 +70,7 @@ const Contact = () => {
                            
                         </Icon>
                         <p className = "copy">Copy to clipboard</p>
-                        <input type="hidden" name="_next" value="http://localhost:3000/thank"></input>
+                        <input type="hidden" name="_next" value="https://devdhiraj.netlify.app/thank"></input>
                         <input type="hidden" name="_captcha" value="false"></input>
                     </form>
                 </Details>
