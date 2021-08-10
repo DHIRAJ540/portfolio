@@ -55,8 +55,8 @@ const Contact = () => {
                             
                         </Message>
                         <Icon>
-                            <a href="https://github.com/DHIRAJ540" target = "_blank"><img src={github} alt="github" /></a>
-                            <a href="https://www.linkedin.com/in/dhiraj-subudhi-850365194/" target = "_blank"><img src={linkedin} alt="linkedin" /></a>
+                            <a href="https://github.com/DHIRAJ540" target = "_blank" rel="noreferrer"><img src={github} alt="github" /></a>
+                            <a href="https://www.linkedin.com/in/dhiraj-subudhi-850365194/" target = "_blank" rel="noreferrer"><img src={linkedin} alt="linkedin" /></a>
                             <div className = "gmail">
                             
                                 <CopyToClipboard text = "dhirajsubudhi540@gmail.com">

@@ -5,8 +5,7 @@ import Skills from "./components/skills";
 import About from "./components/about";
 import Contact from "./components/contact";
 import { GlobalStyles } from "./components/global-style";
-import {Router, Route, Switch} from 'react-router-dom';
-import {useState, useRef} from 'react';
+import { Route } from 'react-router-dom';
 import Resume from "./components/resume";
 import ThankYou from "./components/thankyou";
 

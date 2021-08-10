@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useScroll, useScroll3 } from './useScroll';
+import { useScroll } from './useScroll';
 import { scrollReveal, sliderContainer, lineAnim, lineAnim100, scrollReveal1 } from './animation';
-import { animate, motion } from 'framer-motion';
+import {  motion } from 'framer-motion';
 
 
 
@@ -52,8 +52,8 @@ const Projects = () => {
                         <p>I recreated the entire front end of Netflix with all
                         its functionalities. It is fully responsive supported on all devices and browsers. I also enabled user authentication and real-time database using Firebase.</p>
                         <div className="links">
-                            <button className="live-button"><a href="https://dhiraj-netflix.netlify.app/" target = "_blank">Live site</a><img src={link} alt="link" /></button>
-                            <button className="code-button"><a href="https://github.com/DHIRAJ540/netflix" target = "_blank">Code</a><img src={link} alt="link" /></button>
+                            <button className="live-button"><a href="https://dhiraj-netflix.netlify.app/" target = "_blank" rel="noreferrer">Live site</a><img src={link} alt="link" /></button>
+                            <button className="code-button"><a href="https://github.com/DHIRAJ540/netflix" target = "_blank" rel="noreferrer">Code</a><img src={link} alt="link" /></button>
                         </div>
                     </motion.div>
                 </div>
@@ -74,8 +74,8 @@ const Projects = () => {
                         </ul>
                         <p>It’s a games websites where you can see recent popular games and search ay game and know its rating, platforms, etc. I used an external API to get the game's data and used React to create the whole app.</p>
                         <div className="links">
-                            <button className="live-button"><a href="https://react-games-app.netlify.app/" target = "_blank">Live site</a><img src={link} alt="link" /></button>
-                            <button className="code-button"><a href="https://github.com/DHIRAJ540/react-games-app" target = "_blank">Code</a><img src={link} alt="link" /></button>
+                            <button className="live-button"><a href="https://react-games-app.netlify.app/" target = "_blank" rel="noreferrer">Live site</a><img src={link} alt="link" /></button>
+                            <button className="code-button"><a href="https://github.com/DHIRAJ540/react-games-app" target = "_blank" rel="noreferrer">Code</a><img src={link} alt="link" /></button>
                         </div>
                     </motion.div>
                     <motion.div ref = {element6} variants = {scrollReveal1} animate = {controls6}  className="image right">
@@ -100,8 +100,8 @@ const Projects = () => {
                         </ul>
                         <p>It’s a simple music player app with all functionalities and a beautiful UI.</p>
                         <div className="links">
-                            <button className="live-button"><a href="https://dhiraj-react-player.netlify.app/" target = "_blank">Live site</a><img src={link} alt="link" /></button>
-                            <button className="code-button"><a href="https://github.com/DHIRAJ540/react-music-player" target = "_blank">Code</a><img src={link} alt="link" /></button>
+                            <button className="live-button"><a href="https://dhiraj-react-player.netlify.app/" target = "_blank" rel="noreferrer">Live site</a><img src={link} alt="link" /></button>
+                            <button className="code-button"><a href="https://github.com/DHIRAJ540/react-music-player" target = "_blank" rel="noreferrer">Code</a><img src={link} alt="link" /></button>
                         </div>
                     </motion.div>
                 </div>
@@ -122,8 +122,8 @@ const Projects = () => {
                         <p>It’s a fun Fact app that I designed and developed where you can play the game get to know the score.
                         Try it out and have fun.</p>
                         <div className="links">
-                            <button className="live-button"><a href="https://dazzling-yonath-c43444.netlify.app/" target = "_blank">Live site</a><img src={link} alt="link" /></button>
-                            <button className="code-button"><a href="https://github.com/DHIRAJ540/Fact-app" target = "_blank">Code</a><img src={link} alt="link" /></button>
+                            <button className="live-button"><a href="https://dazzling-yonath-c43444.netlify.app/" target = "_blank" rel="noreferrer">Live site</a><img src={link} alt="link" /></button>
+                            <button className="code-button"><a href="https://github.com/DHIRAJ540/Fact-app" target = "_blank" rel="noreferrer">Code</a><img src={link} alt="link" /></button>
                         </div>
                     </motion.div>
                     <motion.div ref = {element10} variants = {scrollReveal1} animate = {controls10}  className="image right">

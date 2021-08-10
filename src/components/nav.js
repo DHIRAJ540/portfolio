@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation, useHistory } from 'react-router-dom';
 import styled from 'styled-components/macro';
 import { Link } from 'react-scroll';
-import NormalNav from './normalNav';
+
 import Burger from './burger';
 
 

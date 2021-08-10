@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import styled, {keyframes} from 'styled-components';
+import styled from 'styled-components';
 import programmer from '../img/programmer.svg'
 import { Link } from 'react-scroll';
 import {Link as Link1} from 'react-router-dom';

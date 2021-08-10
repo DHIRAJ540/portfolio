@@ -4,7 +4,7 @@ import about from '../img/about.svg';
 import { motion } from 'framer-motion';
 import { scrollReveal, scrollReveal1 } from './animation';
 import { useScroll } from './useScroll';
-import { Link } from 'react-router-dom';
+
 
 const About = () => {
 

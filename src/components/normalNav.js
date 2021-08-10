@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+
 import { Link } from 'react-scroll';
 import github from '../img/github.svg'
 import linkedin from '../img/linkedin.svg';
 import styled from 'styled-components/macro';
-import {Link as Link1} from 'react-router-dom';
+
 import { useLocation, useHistory } from 'react-router';
 
 const NormalNav = ({open}) => {
@@ -68,12 +68,7 @@ const NormalNav = ({open}) => {
         }
     }
 
-    useEffect(() => {
-        const a = document.querySelectorAll(".list-item");
-      //  console.log(a);
-        const array = Array.from(a);
-      //  console.log(array);
-    }, [])
+
 
 
     
@@ -86,8 +81,8 @@ const NormalNav = ({open}) => {
                     <Link to="skills" smooth = {true} duration = {1000}><li onMouseEnter = {(e) => hoverEnter(e)} onMouseLeave = {(e) => hoverExit(e, "Skills")} className="list-item">Skills</li></Link>
                     <Link to="about" smooth = {true} duration = {1000}><li onMouseEnter = {(e) => hoverEnter(e)} onMouseLeave = {(e) => hoverExit(e, "About")} className="list-item">About</li></Link>
                     <Link to="contact" smooth = {true} duration = {1000}><li onMouseEnter = {(e) => hoverEnter(e)} onMouseLeave = {(e) => hoverExit(e, "Contact")} className="list-item">Contact</li></Link>
-                    <a href = "https://github.com/DHIRAJ540" target = "_blank"><li className="list-item"><img src={github} alt="github" /></li></a>
-                    <a href = "https://www.linkedin.com/in/dhiraj-subudhi-850365194/" target = "_blank"><li className="list-item"><img src={linkedin} alt="linkedin" /></li></a>
+                    <a href = "https://github.com/DHIRAJ540" target = "_blank" rel="noreferrer"><li className="list-item"><img src={github} alt="github" /></li></a>
+                    <a href = "https://www.linkedin.com/in/dhiraj-subudhi-850365194/" target = "_blank" rel="noreferrer"><li className="list-item"><img src={linkedin} alt="linkedin" /></li></a>
                 </StyledUl>
     )
 }
