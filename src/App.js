@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from "./components/nav";
+import Home from "./components/home";
+import Projects from "./components/projects";
+import Skills from "./components/skills";
+import About from "./components/about";
+import Contact from "./components/contact";
+import { GlobalStyles } from "./components/global-style";
+import {Router, Route, Switch} from 'react-router-dom';
+import {useState, useRef} from 'react';
+import Resume from "./components/resume";
+import ThankYou from "./components/thankyou";
+
 
 function App() {
+  
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalStyles/>
+      <Nav />
+      
+     <Route path = '/' exact>
+     
+      <Home />
+      <Projects/>
+      <Skills/>
+      <About/>
+      <Contact/>
+      </Route> 
+     <Route path = '/resume'>
+      <Resume/>  
+     </Route> 
+     <Route path = '/thank'>
+      <ThankYou/>
+     </Route>
+      
     </div>
   );
 }
