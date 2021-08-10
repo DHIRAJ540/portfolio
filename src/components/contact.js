@@ -78,7 +78,7 @@ const Contact = () => {
                            
                         </Icon>
                         <p className = "copy">Copy to clipboard</p>
-                        <input type="hidden" name="_next" value="https://devdhiraj.netlify.app/thank.html"></input>
+                        <input type="hidden" name="_next" value="https://devdhiraj.netlify.app/thank"/>
                         <input type="hidden" name="_captcha" value="false"></input>
                     </form>
                 </Details>
