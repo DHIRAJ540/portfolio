@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../img/resume.pdf'
+import resume from '../img/resume1.pdf'
 import styled from 'styled-components';
 
 const Resume = () => {

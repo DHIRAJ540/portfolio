@@ -8,6 +8,9 @@ import javascript from '../img/javascript.svg';
 import react from '../img/react.svg';
 import sass from '../img/sass.svg';
 import html from '../img/html.svg';
+import mongo from "../img/mongo.svg"
+import express from "../img/express.svg"
+import node from "../img/node.svg"
 
 import { motion } from 'framer-motion';
 import { popUp } from './animation';
@@ -36,24 +39,40 @@ const Skills = () => {
                         <h4>CSS3</h4>
                     </motion.li>
                     <motion.li variants = {popUp} className="skill">
-                        <img src={bootstrap} alt="Bootstrap" />
-                        <h4>Bootstrap</h4>
-                    </motion.li>
-                    <motion.li variants = {popUp} className="skill">
-                        <img src={sass} alt="sass" />
-                        <h4>SCSS</h4>
-                    </motion.li>
-                    <motion.li variants = {popUp} className="skill">
-                        <img src={figma} alt="figma" />
-                        <h4>Figma</h4>
-                    </motion.li>
-                    <motion.li variants = {popUp} className="skill">
                         <img src={javascript} alt="JavaScript" />
                         <h4>JavScript</h4>
                     </motion.li>
                     <motion.li variants = {popUp} className="skill">
                         <img src={react} alt="react" />
                         <h4>React</h4>
+                    </motion.li>
+                    <motion.li variants = {popUp} className="skill">
+                        <img src={react} alt="firebase" />
+                        <h4>React Native</h4>
+                    </motion.li>
+                    <motion.li variants = {popUp} className="skill">
+                        <img src={node} alt="firebase" />
+                        <h4>Node</h4>
+                    </motion.li>
+                    <motion.li variants = {popUp} className="skill">
+                        <img src={express} alt="firebase" />
+                        <h4>ExpressJS</h4>
+                    </motion.li>
+                    <motion.li variants = {popUp} className="skill">
+                        <img src={mongo} alt="firebase" />
+                        <h4>MongoDB</h4>
+                    </motion.li>
+                    <motion.li variants = {popUp} className="skill">
+                        <img src={sass} alt="sass" />
+                        <h4>SCSS</h4>
+                    </motion.li>
+                    <motion.li variants = {popUp} className="skill">
+                        <img src={bootstrap} alt="Bootstrap" />
+                        <h4>Bootstrap</h4>
+                    </motion.li>
+                    <motion.li variants = {popUp} className="skill">
+                        <img src={figma} alt="figma" />
+                        <h4>Figma</h4>
                     </motion.li>
                     <motion.li variants = {popUp} className="skill">
                         <img src={firebase} alt="firebase" />
