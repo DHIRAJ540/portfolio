@@ -119,7 +119,7 @@ const Projects = () => {
                             <li className="item">JavaScript</li>
                             
                         </ul>
-                        <p>It’s a fun Fact app that I designed and developed where you can play the game get to know the score.
+                        <p>It’s  fun Fact app that I designed and developed where you can play the game get to know the score.
                         Try it out and have fun.</p>
                         <div className="links">
                             <button className="live-button"><a href="https://dazzling-yonath-c43444.netlify.app/" target = "_blank" rel="noreferrer">Live site</a><img src={link} alt="link" /></button>
