@@ -308,8 +308,8 @@ const Container = styled(motion.div)`
         
         .live-button{
             margin-right: 2rem;
-            background-color:#66fcf1;
-            color
+            
+            
 
             @media(max-width: 768px){
                    padding:1rem;
