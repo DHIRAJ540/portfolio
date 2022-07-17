@@ -6,7 +6,7 @@ import figma from "../img/figma.svg";
 import firebase from "../img/firebase.svg";
 import javascript from "../img/javascript.svg";
 import react from "../img/react.svg";
-import sass from "../img/sass.svg";
+// import sass from "../img/sass.svg";
 import html from "../img/html.svg";
 import mongo from "../img/mongo.svg";
 import express from "../img/express.svg";
